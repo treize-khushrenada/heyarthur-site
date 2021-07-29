@@ -61,7 +61,7 @@ author:
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-linkedin"
       url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
