@@ -17,9 +17,9 @@ tags:
 
 ---
 
-Whether you are a product manager, a user researcher, or any other role in this all-things-digital age, it has become extremely common that you'd have to efficiently process raw data to **generate insights**. Be it a .csv or a .txt file, it could always be a daunting task- we used the built-in search functions, got a dozens (or perhaps hundreds) of matches, manually skimmed through the matched items with our eysballs, spotted and copy-pasted the useful pieces. 
+Whether you are a product manager, a user researcher, or any other role in this all-things-digital age, it has become extremely common that you'd have to efficiently process raw data to **generate insights**. Be it a .csv or a .txt file, it could always be a daunting task- we used the built-in search functions, got a dozens (or perhaps hundreds) of matches, manually skimmed through the matched items with our eyeballs, spotted and copy-pasted the useful pieces. 
 
-What's happened next? We had to double-chcek our work to avoid human errors, or perhaps we just wanted to look up slightly differently- we started over, doing the task all over again.
+What's happened next? We had to double-chcek our work to avoid human errors, or perhaps we just wanted to look up slightly differently- we started over, doing the same task (with potential human errors) all over again.
 
 ### The power of regex
 
