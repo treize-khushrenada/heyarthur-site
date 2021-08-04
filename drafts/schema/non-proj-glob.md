@@ -3,6 +3,9 @@ categories:
 tags:
   - 
 
+My lenses:
+
+
 Agenda:
 
 AI in diversity

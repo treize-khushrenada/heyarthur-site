@@ -8,6 +8,8 @@ tags:
   - Python
   - Data Manipulation
   - Regex
+header:
+  image: /assets/images/cats.png
 ---
 ### What to expect:
 
