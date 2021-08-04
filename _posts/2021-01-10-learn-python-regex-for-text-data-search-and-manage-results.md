@@ -31,15 +31,7 @@ Regular expression, known as regex, is a sequence of characters that specifies a
 
 You can write a minial function with just a few lines of Python code, it will then scan through your documents and help you manage search results at ease. Such a powerful technique!
 
-**NOTE**
-
-If you are new to regex, **don't panic**. The patterns may look like alien languages at the first sight, and it can be counter-intuitive to understand. 
-
-The good news is, there are tons of free tools and documentations for us to test and learn. I will share a few of the most practical reources at the end of this article.
-
-You can always refer to the resources to strengthen your memory. Just sit back and relax!
-
-{: .notice--primary}
+**NOTE:** If you are new to regex, **don't panic**. The patterns may look like alien languages at the first sight, and it can be counter-intuitive to understand. The good news is, there are tons of free tools and documentations for us to test and learn. I will share a few of the most practical reources at the end of this article. You can always refer to the resources to strengthen your memory. Just sit back and relax! {: .notice--primary}
 
 ---
 ### 1. Design a pattern, apply it to a regex method
