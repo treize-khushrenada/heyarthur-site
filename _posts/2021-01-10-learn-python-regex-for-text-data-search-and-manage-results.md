@@ -87,7 +87,7 @@ Using list comprehension along with regex function `finditer()` and `goupdict()`
 
 Let's say we have a log file of user behavior data, and we have to extract the username and timestamp data for each user.
 
-We can first design a pattern with 2 regex expression groups using (?P):
+We can first design a pattern with 2 regex groups using `(?P)`:
 
 ```python
 pattern = "((?P<user_name>\w*|-)(\s)(\[(?P<timestamp>.+)\])(\s))" 
