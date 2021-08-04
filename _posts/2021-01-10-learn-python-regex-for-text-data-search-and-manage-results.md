@@ -39,6 +39,8 @@ The good news is, there are tons of free tools and documentations for us to test
 
 You can always refer to the resources to strengthen your memory. Just sit back and relax!
 
+{: .notice--primary}
+
 ---
 ### 1. Design a pattern, apply it to a regex method
 In Python's regex module `re`, the `findall()` function will return all matched results from the input in a list format.
