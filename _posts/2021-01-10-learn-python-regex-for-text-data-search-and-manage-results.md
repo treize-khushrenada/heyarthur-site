@@ -29,7 +29,7 @@ Regular expression, known as regex, is a sequence of characters that specifies a
 
 With just a few lines of Python code, you can create a powerful function that will scan through your documents and help you manage search results at ease. Such a powerful technique!
 
-**NOTE:** If you are new to regex, **don't panic**. These patterns may look like alien languages at the first sight, and it can be counter-intuitive to memorize. The good news is, there are tons of free tools and cheatsheets for us to test and learn quickly. I will share the most practical reources at the end of this article. You can always refer to thrm to strengthen your memory- just sit back and relax!
+**NOTE:** If you are new to regex, **don't panic**. These patterns may look like alien languages at the first sight, and it can be counter-intuitive to memorize. The good news is, there are tons of free tools and cheatsheets for us to test and learn quickly. I will share the most practical resources at the end of this article. You can always refer to them to strengthen your memory- just sit back and relax!
 {: .notice--primary}
 
 ---
@@ -104,11 +104,11 @@ Here are the tools and references for you to get started. First and foremost, I 
 
 <http://www.pyregex.com>
 
-If you need more detailed explanations for the patterns, this blogpost from Dataquest comes in handy:
+If you need more detailed explanations for the patterns, this blog post from Dataquest comes in handy:
 
 <https://www.dataquest.io/blog/regex-cheatsheet/>
 
-To explore all the other methods in the `re` module, here's the official documentaion: 
+To explore all the other methods in the `re` module, here's the official documentation: 
 
 <https://docs.python.org/3/library/re.html>
 
