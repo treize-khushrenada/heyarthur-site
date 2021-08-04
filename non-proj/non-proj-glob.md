@@ -1,6 +1,0 @@
-Agenda:
-
-categories:
-  - 
-tags:
-  - 
