@@ -7,31 +7,29 @@ categories:
 tags:
   - Python
   - Data Manipulation
+  - Regex
 ---
 ### What to expect:
 
 - Understand how to use Python's `re` module to perform searching in text files
 - See examples of regex patterns and methods
 - Explore how to use matched results for further processing
-- Be aware of resources to test and learn
 
 ---
 
-Whether you are a product manager, a business development manager, a user researcher, or any other role in this all-things-digital age, it has become extremely common that we have to efficiently process raw data to **generate insights**.
+Whether you are a product manager, a user researcher, or any other role in this all-things-digital age, it has become extremely common that you'd have to efficiently process raw data to **generate insights**. Be it a .csv or a .txt file, it could always be a daunting task- we used the built-in search functions, got a dozens (or perhaps hundreds) of matches, manually skimmed through the matched items with our eysballs, spotted and copy-pasted the useful pieces. 
 
-Be it a .csv or a .txt file, it could always be a daunting task- we used the built-in search functions, got a dozens (or perhaps hundreds) of matches, manually skimmed through the matched items with our eysballs, spotted and copy-pasted the useful pieces. 
-
-What's happened next? Some mistakes were made, or perhaps we just wanted to look up slightly differently- we started over, doing the task all over again.
+What's happened next? We had to double-chcek our work, or perhaps we just wanted to look up slightly differently- we started over, doing the task all over again.
 
 ### The power of regex
 
 It does not have to be that way.  With some simple Python scripts, you can easily extract the desirable pieces and never miss a thing. 
 
-Regular expression, known as regex, is a sequence of characters that specifies a search pattern. Very often, these patterns are used to validate, find and replace input text-string related data.
+Regular expression, known as regex, is a sequence of characters that specifies a search pattern. Very often, these patterns are used to validate, find and replace input text data.
 
-You can write a minial function with just a few lines of Python code, it will then scan through your documents and help you manage search results at ease. Such a powerful technique!
+With just a few lines of Python code, you can create a powerful function that will scan through your documents and help you manage search results at ease. Such a powerful technique!
 
-**NOTE:** If you are new to regex, **don't panic**. The patterns may look like alien languages at the first sight, and it can be counter-intuitive to understand. The good news is, there are tons of free tools and documentations for us to test and learn. I will share a few of the most practical reources at the end of this article. You can always refer to the resources to strengthen your memory. Just sit back and relax!
+**NOTE:** If you are new to regex, **don't panic**. These patterns may look like alien languages at the first sight, and it can be counter-intuitive to memorize. The good news is, there are tons of free tools and cheatsheets for us to test and learn quickly. I will share the most practical reources at the end of this article. You can always refer to thrm to strengthen your memory- just sit back and relax!
 {: .notice--primary}
 
 ---
@@ -75,11 +73,11 @@ matched_results = re.findall(pattern, txt_obj)
 
 ```
 ---
-### 3. Turing search results into structural data
+### 3. Turning search results into structural data
 
-Let's see another example of how we can incorporate regex functions to transform text data into a structural, refined dataset, with a simple line of code.
+Let's see another example of how we can incorporate regex functions to transform text data into a structural, refined dataset, with one simple line of code.
 
-First, let's take a look at Python's list comprehension expression. It makes data transformation as simple as one line of code:
+First, let's take a look at Python's list comprehension expression. It makes data transformation from one list to another super simple:
 
 ```python
 new_list = [item.someMethod() for item in old_list]
@@ -87,7 +85,7 @@ new_list = [item.someMethod() for item in old_list]
 
 Using list comprehension along with regex function `finditer()` and `goupdict()`, we can perform searching with multiple targets in mind, and put results in a dictionary format.
 
-Let's day we have a log file of user behavior data, and we have to extract the username and timestamp data for each user.
+Let's say we have a log file of user behavior data, and we have to extract the username and timestamp data for each user.
 
 We can first design a pattern with 2 regex expression groups using (?P):
 
@@ -97,16 +95,16 @@ pattern = "((?P<user_name>\w*|-)(\s)(\[(?P<timestamp>.+)\])(\s))"
 result = [item.groupdict() for item in re.finditer(pattern, txt_obj)]
 ```
 
-Note that during handling from `.groupdic()`, the `<tag_name>` will become keys in the dictionary, while matched results (`item`) would be assigned as the values.
+Note that during handling from `.groupdic()`, `<tag_name>` will become keys in the dictionary, while the matched results (`item`) would be assigned as their corresponding values. It's that simple!
 
 ---
-### Tools and Documentations:
+### Let's start learning!
 
-An regex pattern testing tool with a table of commonly used patterns- you can mix and match the patterns to see how things work:
+Here are the tools and references for you to get started. First and foremost, I wound recommend this regex pattern testing tool with a table of commonly used patterns- you can mix and match the patterns to see how things work:
 
 <http://www.pyregex.com>
 
-If you want to understand more about each expression, this blogpost from Dataquest comes in handy:
+If you need more detailed explanations for the patterns, this blogpost from Dataquest comes in handy:
 
 <https://www.dataquest.io/blog/regex-cheatsheet/>
 
@@ -114,6 +112,6 @@ To explore all the other methods in the `re` module, here's the official documen
 
 <https://docs.python.org/3/library/re.html>
 
-Going further- this is another regex testing tool, you can see how regex is used across different languages (e.g. PHP/ Java). You can also find the explanations of different patterns on the reference panels:
+Going further- Regex is a popular regex testing tool, you can see how regex is used across different languages (e.g. PHP/ Java). You can also find the explanations of different patterns on the reference panels:
  
 <https://regex101.com>
