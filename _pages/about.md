@@ -3,6 +3,22 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+- PM Who can actually make things
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My lens are:
+
+AI in diversity
+Misinformation
+Democratizing Education
+Self Expression with the help of content tools
+Social agenda maniplulation through content engineering
+looking ahead in content streaming services
+The real performance of an algorithm/ ai products (how they work)
+content technologies in process automation
+'AI-empowered' companies product strategies and comparison
+
+
+What are some of the latest measure to previent racisms with imbalanced data
+Can data scientist make an scalable app business?
+in the world of reinforcement learning, how can we celebrate diversity?
+Is there a relationship between audio files representations and popularity/ billboard data to find "the x factor"?
