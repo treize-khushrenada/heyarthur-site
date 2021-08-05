@@ -19,3 +19,4 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+gem 'rake' , '>= 0.9.2'

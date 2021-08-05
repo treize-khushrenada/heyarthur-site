@@ -1,5 +1,5 @@
 ---
-title: "Quickly Search and Filter Your Text Data with Python's Regex Module"
+title: Quickly Search and Filter Your Text Data with Python's Regex Module
 excerpt_separator: "<!--more-->"
 date: 2021-01-10T15:34:30-04:00
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - Python
   - Data Manipulation
-  - Regex
+  - Regex     
 header:
   image: /assets/images/cats.png
 ---
