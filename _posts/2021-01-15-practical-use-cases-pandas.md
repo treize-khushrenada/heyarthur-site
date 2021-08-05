@@ -15,7 +15,7 @@ header:
 ### Highlights:
 - Query large .csv dataset and compute mathematic operations without any spreadsheet tools
 - Create data objects and manipulate their properties
---
+---
 
 Basic spreadsheet tools (e.g. Microsoft Excel/ Numbers/ Google Sheets) provide an easy way for us to manipulate tabular data, process the entries and visualize them. But when it comes to large dataset, such tools start having performance issues. It is also not ideal when we have to manually extract insights without clear "work scripts".
 
