@@ -45,13 +45,13 @@ print ("scipy version: "+sp.__version__)
 
 #### Scenario 1: Gather all data from one column and generate a dictionary with proportional value for each variable (group by):
 
-1. Confirm the column to look at- create a list called field.
+Confirm the column to look at- create a list called field.
 
 ```python
 field = ['col_name']
 ```
 
-2. Use `pd.read_csv` to read the csv file, and look at a specific column by appointing `usecols=field`.
+Use `pd.read_csv` to read the csv file, and look at a specific column by appointing `usecols=field`.
 
 ```python
 df = pd.read_csv("filename.csv", usecols=field)
@@ -64,7 +64,7 @@ Note that the dtype is shown as object, not string and it's correct behavior.
 More technically speaking: instead of saving the bytes of `strings` in the `ndarray` directly, Pandas use object `ndarray`, which save pointers to objects.
 {: .notice--primary}
 
-3. Some datasets have their own naming conventions. For example, they may use a special set of numerical value (001/002/003) to represent variations ('apple'/ 'orange'/ 'banana') for each cell. We can replace these codes with more general terms. 
+Some datasets have their own naming conventions. For example, they may use a special set of numerical value (001/002/003) to represent variations ('apple'/ 'orange'/ 'banana') for each cell. We can replace these codes with more general terms. 
 
 ```python
 # note: we can convert the column data type to string to ensure no errors during value replacement 
@@ -72,7 +72,7 @@ df = df.astype(str)
 df = df.replace({"num_code_1" : "variation_1", "num_code_2" : "variation_2", "num_code_3" : "variation_3", "num_code_4" : "variation_4"})
 ```
 
-6. Apply .value_counts() to object to count the column data object, with `(normalize=True)` so that the count results are in proportional values. 
+Apply .value_counts() to object to count the column data object, with `(normalize=True)` so that the count results are in proportional values:
 
 ```python
 df = df.value_counts(normalize=True)
@@ -81,12 +81,13 @@ df = df.value_counts(normalize=True)
 **NOTE:** The `value_counts()` function will result in a `Series` object, which is specifically used for column data. It does not affect further processing.
 {: .notice--primary}
 
-7. Convert the data object to a dictionary using .to_dict method(). 
+Convert the data object to a dictionary using `.to_dict` method():
 
-**NOTE:** Explore different convert options by setting the orient in the method ("records"/"index"/list")
-{: .notice--primary}
+```python
+dic = df.to_dict()
+```
 
-8. Return the dictionary object
+Return the dictionary object:
 
 ```python
 {'variation_1': 0.47974705779026877,
@@ -97,7 +98,9 @@ df = df.value_counts(normalize=True)
 
 #### Scenario 2: Analyze data with conditionals and extra filtering:
 
-Some data entries should be omitted during analytics stage. If we are to analyze the product funnel, some user_ids related to testers should be filtered out. Furthermore, some records might be incomplete in our database, and we have to get rid of those entries with `N/A` data fields. We can use `.drop()` and `.dropna()` for the job. Here is a simple illustrations of how we can chain the two methods together:
+Some data entries should be omitted during analytics stage. If we are to analyze the product funnel, some user_ids related to testers should be filtered out. Furthermore, some records might be incomplete in our database, and we have to get rid of those entries with `N/A` data fields. We can use `.drop()` and `.dropna()` for the job. 
+
+Here is a simple illustration of how we can chain the two methods together:
 
 ```python
 cleaned_df = df.dropna().drop(df[some_conditional_expressions].index)
