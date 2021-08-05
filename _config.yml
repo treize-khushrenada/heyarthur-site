@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Arthur"
-  avatar : "/assets/images/bio.jpg"
+  avatar : "/assets/images/bio-photo.jpg"
   bio    : "Update Later"
   links:
     - label: "LinkedIn"
