@@ -9,10 +9,12 @@ tags:
 header:
   image: /assets/images/cats.png
 ---
+
 ### What to expect:
 - Understand how to use Python's `re` module to perform searching in text files
 - See examples of regex patterns and methods
 - Explore how to use matched results for further processing
+
 ---
 
 ```python

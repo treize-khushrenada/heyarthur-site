@@ -12,9 +12,11 @@ tags:
 header:
   image: /assets/images/cats.png
 ---
+
 ### What to expect:
 - Understand the competitive advantages of Spark for big data processing
 - Utilize Spark Dataframe to analyze Yelp review datasets
+
 ---
 
 ### About Spark
