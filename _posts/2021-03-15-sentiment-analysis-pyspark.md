@@ -1,5 +1,5 @@
 ---
-title: Sentiment Analysis with Spark- Dealing with Big Data
+title: Spark for Sentiment Analysis on Review Platforms- Dealing with Big Data- Part 1
 excerpt_separator: "<!--more-->"
 date: 2021-03-15T15:34:30-04:00
 categories:
@@ -15,7 +15,7 @@ header:
 
 ### What to expect:
 - Understand the competitive advantages of Spark for big data processing
-- Utilize Spark Dataframe to analyze Yelp review datasets
+- Utilize Spark Dataframe to explore Yelp review datasets
 
 ---
 
@@ -66,9 +66,52 @@ user = spark.read.json('filepath/yelp_academic_dataset_user.json.gz')
 
 ```
 
-**NOTE:** note
-{: .notice--primary}
+Explore schema from `user` Dataframe:
 
-> Only one thing is impossible for God: To find any sense in any copyright law on the planet.
-  
-> <cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite>
+```python
+
+# showing the schema from user DataFrame
+user.printSchema()
+
+```
+
+```
+root
+ |-- average_stars: double (nullable = true)
+ |-- compliment_cool: long (nullable = true)
+ |-- compliment_cute: long (nullable = true)
+ |-- compliment_funny: long (nullable = true)
+ |-- compliment_hot: long (nullable = true)
+ |-- compliment_list: long (nullable = true)
+ |-- compliment_more: long (nullable = true)
+ |-- compliment_note: long (nullable = true)
+ |-- compliment_photos: long (nullable = true)
+ |-- compliment_plain: long (nullable = true)
+ |-- compliment_profile: long (nullable = true)
+ |-- compliment_writer: long (nullable = true)
+ |-- cool: long (nullable = true)
+ |-- elite: string (nullable = true)
+ |-- fans: long (nullable = true)
+ |-- friends: string (nullable = true)
+ |-- funny: long (nullable = true)
+ |-- name: string (nullable = true)
+ |-- review_count: long (nullable = true)
+ |-- useful: long (nullable = true)
+ |-- user_id: string (nullable = true)
+ |-- yelping_since: string (nullable = true)
+
+```
+
+Assign condition to extract rows that users received more than 5000 'cool' compliments:
+
+```python
+
+res1 = user.filter(user['compliment_cool'] > 5000).collect()
+len(res1)
+```
+Results:
+```
+79
+```
+
+More practical functionalities to be shared in the next article of this series.
