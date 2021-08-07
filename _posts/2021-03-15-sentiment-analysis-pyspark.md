@@ -51,7 +51,7 @@ import string
 spark = SparkSession \
     .builder \
     .master("local[*]") \
-    .appName('SIADS 516 Homework 3') \
+    .appName('Your_App_Name') \
     .getOrCreate() 
 
 sc = spark.sparkContext
