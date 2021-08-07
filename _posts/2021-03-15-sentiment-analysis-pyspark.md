@@ -10,7 +10,7 @@ tags:
   - Big Data
   - Sentiment Analysis
 header:
-  image: /assets/images/cats.png
+  image: /assets/images/carambola-1.png
 ---
 
 ### What to expect:
