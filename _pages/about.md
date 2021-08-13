@@ -78,3 +78,7 @@ Strategy: finding the fits between the "->"s in the right order
 
 on written communication strategy:
 When talking about a product: people to perceive that starting from the product, how is that connected to high level vision/ epic (which is bridged to business/ strategy), and going downstream, how are the artifacts doing the job in correct interpretation. and moving forward, what processes to get to the pbis and prioritization, and based on the vision, what can be explored (combined with business/ tech/ personal knowledge and insight)
+
+curate examples to explain ideas
+
+
