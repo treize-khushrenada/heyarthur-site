@@ -9,27 +9,43 @@ header:
     # - label: "<i class='fas fa-download'></i> Install now"
       # url: "/docs/quick-start-guide/"
 excerpt: >
-  Apply AI and data science technologies to make a difference.<br />
+  proAI in diversity<br />
+  Misinformation<br />
+  Democratizing Education<br />
+  Self Expression with the help of content tools<br />
+  Social agenda manipulation through content engineering<br />
+  looking ahead in content streaming services<br />
+  The real performance of an algorithm/ ai products (how they work)<br />
+  content technologies in process automation<br />
+  'AI-empowered' companies product strategies and comparison<br />
+
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: self conducted research in and expirementations on applying ai / data science technologies to real world problems. the bottleneck, the cost, how to effectively discover problems and apply solutions. so now i am spending a whole year to build things that solves bigger problems. extract the goodies from this active research area, and build great things
+
 feature_row:
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "AI Product Experience"
     title: "AI Product Experience"
     excerpt: "Selected works ranging from conversational AI/ NLP solutions, model training operations to big data analysis projects."
-    url: "/docs/configuration/"
+    url: "/ai-experience-highlights"
 
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "The White Box "
     title: "The White Box"
-    excerpt: "Self-conducted research project aimed to demystify AI and data science. No more black box."
-    url: "/docs/layouts/"
+    excerpt: "Self-conducted research project aimed to demystify AI and data science- No more black box."
+    url: "/the-white-box"
 
   - image_path: /assets/images/lihkg-lipig.gif
-    alt: "Showcase: Macross"
-    title: "Showcase: Macross"
-    excerpt: "Should be a streamlit app or collab notebook"
-    url: "/docs/license/"
+    alt: "Project Macross"
+    title: "Project Macross"
+    excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
+    url: "/showcase-macross"
+
+  - image_path: /assets/images/lihkg-lipig.gif
+    alt: "Project Macross"
+    title: "Project Macross"
+    excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
+    url: "/showcase-macross"
 
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "Agile and PM Skills"
@@ -45,9 +61,7 @@ feature_row:
 
 ---
 
-
-{% include feature_row id="intro" type="center" %}
-
+self conducted research in and expirementations on applying ai / data science technologies to real world problems. the bottleneck, the cost, how to effectively discover problems and apply solutions. so now i am spending a whole year to build things that solves bigger problems. extract the goodies from this active research area, and build great things
 
 - PM Who can actually make things
 - data transparency
@@ -57,16 +71,15 @@ feature_row:
 
 Apply AI and data science technologies to make a difference.
 
+Portfolio
 
 {% include feature_row %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Weekly News in AI" }}</h3>
-
-
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Latest Insights" }}</h3>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {%- for post in site.categories.newsletter -%}
+  {%- for post in site.categories.insights-curations -%}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
