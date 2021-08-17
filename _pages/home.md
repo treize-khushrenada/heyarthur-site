@@ -1,85 +1,38 @@
 ---
 layout: splash
+permalink: /
+hidden: true
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/splash/coffee.jpeg
-
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+    - label: "<i class='fas fa-download'></i> Install now"
+      url: "/docs/quick-start-guide/"
+excerpt: >
+  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
 feature_row:
-  - image_path: /assets/splash/feat1-1.jpg
-    title: "Placeholder 1"
-    excerpt: "Sample text 1 with **markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "customizable"
+    title: "Super customizable"
+    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    url: "/docs/configuration/"
     btn_class: "btn--primary"
-  - image_path: /assets/splash/feat1-2.jpg
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--secondary"
-  - image_path: /assets/splash/feat1-3.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--success"
-feature_row_left:
-  - image_path: /assets/splash/feat1-1.jpg
-    title: "Left aligned placeholder 1"
-    excerpt: "Left-aligned image centered with"
-    url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-responsive-feature.png
+    alt: "fully responsive"
+    title: "Responsive layouts"
+    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    url: "/docs/layouts/"
     btn_class: "btn--primary"
-feature_row_right:
-  - image_path: /assets/splash/feat1-2.jpg
-    title: "Placeholder 1"
-    excerpt: "Right-aligned image with ``"
-    url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "100% free"
+    title: "100% free"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    url: "/docs/license/"
     btn_class: "btn--primary"
-feature_row_center:
-  - image_path: /assets/splash/feat1-3.jpg
-    title: "Placeholder 1"
-    excerpt: "Center aligned image"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_label: "Learn more"      
 ---
 
-{% include feature_row id="intro" type="center" %}
-
 {% include feature_row %}
-
-{% include feature_row id="feature_row_left" type="left" %}
-
-{% include feature_row id="feature_row_center" type="right" %}
-
-{% include feature_row id="feature_row_center" type="center" %}
-
-
-{{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% include paginator.html %}
-
