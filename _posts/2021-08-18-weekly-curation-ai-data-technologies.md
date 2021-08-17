@@ -1,9 +1,9 @@
 ---
-title: Quickly Search and Filter Your Text Data with Python's Regex Module
+title: Models will be gamed
 excerpt_separator: "<!--more-->"
 date: 2021-01-10T15:34:30-04:00
 categories:
-  - Blog
+  - insights-curations
 tags:
   - Python
   - Data Manipulation

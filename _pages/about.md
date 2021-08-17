@@ -31,6 +31,8 @@ narration:
 
 one catchy line. big names and condensed achievements
 
+self conducted research in and expirementations on applying ai / data science technologies to real world problems. the bottleneck, the cost, how to effectively discover problems and apply solutions
+
 so now i am spending a whole year to build things that solves bigger problems
 extract the goodies from this active research area, and build great things
 
