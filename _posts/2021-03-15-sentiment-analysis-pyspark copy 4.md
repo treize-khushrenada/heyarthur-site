@@ -1,9 +1,9 @@
 ---
-title: Spark for Sentiment Analysis on Review Platforms- Dealing with Big Data- Part 1
+title: this is a fake newsletter post
 excerpt_separator: "<!--more-->"
 date: 2021-03-15T15:34:30-04:00
 categories:
-  - Blog
+  - newsletter
 tags:
   - Spark
   - pyspark
