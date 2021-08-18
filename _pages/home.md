@@ -4,20 +4,12 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#18191c"
-  # overlay_image: /assets/images/mm-home-page-feature.jpg
+  # overlay_image: /assets/images/bg-overlay.gif
   # actions:
     # - label: "<i class='fas fa-download'></i> Install now"
       # url: "/docs/quick-start-guide/"
 excerpt: >
-  proAI in diversity<br />
-  Misinformation<br />
-  Democratizing Education<br />
-  Self Expression with the help of content tools<br />
-  Social agenda manipulation through content engineering<br />
-  looking ahead in content streaming services<br />
-  The real performance of an algorithm/ ai products (how they work)<br />
-  content technologies in process automation<br />
-  'AI-empowered' companies product strategies and comparison<br />
+  AI & Data Science Enthusiast, Product Manager, PMI-Certified Agile Practitioner
 
 intro: 
   - excerpt: self conducted research in and expirementations on applying ai / data science technologies to real world problems. the bottleneck, the cost, how to effectively discover problems and apply solutions. so now i am spending a whole year to build things that solves bigger problems. extract the goodies from this active research area, and build great things
@@ -25,31 +17,31 @@ intro:
 feature_row:
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "AI Product Experience"
-    title: "AI Product Experience"
+    title: AI Product Experience <br> 2017-2020
     excerpt: "Selected works ranging from conversational AI/ NLP solutions, model training operations to big data analysis projects."
     url: "/ai-experience-highlights"
 
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "The White Box "
-    title: "The White Box"
+    title: The White Box <br> 2021- now
     excerpt: "Self-conducted research project aimed to demystify AI and data science- No more black box."
     url: "/the-white-box"
 
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "Project Macross"
-    title: "Project Macross"
+    title: Project Macross <br> 2021- now
     excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
     url: "/showcase-macross"
 
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "Project Macross"
-    title: "Project Macross"
+    title: Project Macross <br> 2021- now
     excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
     url: "/showcase-macross"
 
   - image_path: /assets/images/lihkg-lipig.gif
     alt: "Agile and PM Skills"
-    title: "Agile and PM Skills"
+    title: Agile and PM Skills
     excerpt: "Link to a page about the Agile certification, explain what it means; list out the product management skills I process, and project examples; list out the PM tools/ tools that I used"
     url: "/docs/license/"
 
