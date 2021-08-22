@@ -9,10 +9,10 @@ header:
     # - label: "<i class='fas fa-download'></i> Install now"
       # url: "/docs/quick-start-guide/"
 excerpt: >
-  Product Manager \| AI Enthusiast <br>
-  Master in Data Science \| PMI Agile Practitioner
+  AI Enthusiast \| Master in Data Science <br>
+  Product Manager \| PMI Agile Practitioner
 intro: 
-  - excerpt: "Apply AI Technologies to Make a Difference.<br> <br>[About Me](/bio){: .btn .btn--primary}"
+  - excerpt: "A learner and problem solver, obsessed with solving real-world problems.<br> <br>[About Me](/bio){: .btn .btn--primary}"
 
 feature_row:
   - image_path: /assets/images/empty_icon.png
@@ -52,9 +52,7 @@ feature_row:
     url: "/gen"
 
 ---
-
 <h1 class="archive__item-title">{% include feature_row id="intro" type="center" %}</h1>
-
 **Updated Sep 2021:** Deep Learning research at University of Michigan + Independent AI project. Open for new challenges and collaborations!
 {: .notice}
 
