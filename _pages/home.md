@@ -53,8 +53,7 @@ feature_row:
 
 ---
 
-<h1 class="archive__item-title">{% include feature_row id="intro" type="center" %}
-</h1>
+<h1 class="archive__item-title">{% include feature_row id="intro" type="center" %}</h1>
 
 **Updated Sep 2021:** Deep Learning research at University of Michigan + Independent AI project. Open for new challenges and collaborations!
 {: .notice}
@@ -66,7 +65,7 @@ feature_row:
 
 <h1 class="archive__item-title">{{ site.data.ui-text[site.locale].recent_posts | default: "Insights" }}</h1>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign entries_layout = page.entries_layout | default: 'list' |  sort_by: date %}
 <div class="entries-{{ entries_layout }}">
   {%- for post in site.categories.Blog -%}
     {% include archive-single.html type=entries_layout %}
