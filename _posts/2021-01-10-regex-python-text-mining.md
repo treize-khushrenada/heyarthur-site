@@ -1,9 +1,9 @@
 ---
-title: Models will be gamed
+title: Text Data Mining Essentials with Regular Expressions (Regex)
 excerpt_separator: "<!--more-->"
 date: 2021-01-10T15:34:30-04:00
 categories:
-  - insights-curations
+  - Blog
 tags:
   - Python
   - Data Manipulation

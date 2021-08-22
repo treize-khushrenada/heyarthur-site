@@ -12,7 +12,7 @@ excerpt: >
   Product Manager \| AI Enthusiast <br>
   Master in Data Science \| PMI Agile Practitioner
 intro: 
-  - excerpt: "**Sep 2021:** Deep Learning research at University of Michigan + Independent AI project. Open for new challenges and collaborations.<br> <br>[About Me](/bio){: .btn .btn--primary}"
+  - excerpt: "Apply AI Technologies to Make a Difference.<br> <br>[About Me](/bio){: .btn .btn--primary}"
 
 feature_row:
   - image_path: /assets/images/empty_icon.png
@@ -53,8 +53,12 @@ feature_row:
 
 ---
 
-<h2 class="archive__item-title">{% include feature_row id="intro" type="center" %}
-</h2>
+<h1 class="archive__item-title">{% include feature_row id="intro" type="center" %}
+</h1>
+
+**Updated Sep 2021:** Deep Learning research at University of Michigan + Independent AI project. Open for new challenges and collaborations!
+{: .notice}
+
 <h1 class="archive__item-title">Portfolio</h1><br>
 
 {% include feature_row %}
@@ -64,7 +68,7 @@ feature_row:
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {%- for post in site.categories.insights-curations -%}
+  {%- for post in site.categories.Blog -%}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
