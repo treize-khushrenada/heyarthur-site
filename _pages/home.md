@@ -9,65 +9,58 @@ header:
     # - label: "<i class='fas fa-download'></i> Install now"
       # url: "/docs/quick-start-guide/"
 excerpt: >
-  AI & Data Science Enthusiast, Product Manager, PMI-Certified Agile Practitioner
-
+  Product Manager \| AI Enthusiast <br>
+  Master in Data Science \| PMI Agile Practitioner
 intro: 
-  - excerpt: self conducted research in and expirementations on applying ai / data science technologies to real world problems. the bottleneck, the cost, how to effectively discover problems and apply solutions. so now i am spending a whole year to build things that solves bigger problems. extract the goodies from this active research area, and build great things
+  - excerpt: "**Sep 2021:** Deep Learning research at University of Michigan + Independent AI project. Open for new challenges and collaborations.<br> <br>[About Me](/bio){: .btn .btn--primary}"
 
 feature_row:
-  - image_path: /assets/images/lihkg-lipig.gif
+  - image_path: /assets/images/empty_icon.png
     alt: "AI Product Experience"
     title: AI Product Experience <br> 2017-2020
     excerpt: "Selected works ranging from conversational AI/ NLP solutions, model training operations to big data analysis projects."
-    url: "/ai-experience-highlights"
+    url: "/ai"
 
-  - image_path: /assets/images/lihkg-lipig.gif
+  - image_path: /assets/images/empty_icon.png
     alt: "The White Box "
     title: The White Box <br> 2021- now
     excerpt: "Self-conducted research project aimed to demystify AI and data science- No more black box."
     url: "/the-white-box"
 
-  - image_path: /assets/images/lihkg-lipig.gif
+  - image_path: /assets/images/empty_icon.png
     alt: "Project Macross"
     title: Project Macross <br> 2021- now
     excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
     url: "/showcase-macross"
 
-  - image_path: /assets/images/lihkg-lipig.gif
+  - image_path: /assets/images/empty_icon.png
     alt: "Project Macross"
     title: Project Macross <br> 2021- now
     excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
     url: "/showcase-macross"
 
-  - image_path: /assets/images/lihkg-lipig.gif
+  - image_path: /assets/images/empty_icon.png
     alt: "Agile and PM Skills"
     title: Agile and PM Skills
     excerpt: "Link to a page about the Agile certification, explain what it means; list out the product management skills I process, and project examples; list out the PM tools/ tools that I used"
-    url: "/docs/license/"
+    url: "/pm-gen"
 
-  - image_path: /assets/images/lihkg-lipig.gif
+  - image_path: /assets/images/empty_icon.png
     alt: "My Professional Journey"
     title: "My Professional Journey"
     excerpt: "Startups and Big Tech."
-    url: "/docs/license/"
+    url: "/gen"
 
 ---
 
-self conducted research in and expirementations on applying ai / data science technologies to real world problems. the bottleneck, the cost, how to effectively discover problems and apply solutions. so now i am spending a whole year to build things that solves bigger problems. extract the goodies from this active research area, and build great things
-
-- PM Who can actually make things
-- data transparency
-- model/ problem matching advice (upstream/ downstream/shift)
-- product analytics techniques
-- working with data pipelines
-
-Apply AI and data science technologies to make a difference.
-
-Portfolio
+<h2 class="archive__item-title">{% include feature_row id="intro" type="center" %}
+</h2>
+<h1 class="archive__item-title">Portfolio</h1><br>
 
 {% include feature_row %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Latest Insights" }}</h3>
+
+<h1 class="archive__item-title">{{ site.data.ui-text[site.locale].recent_posts | default: "Insights" }}</h1>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
