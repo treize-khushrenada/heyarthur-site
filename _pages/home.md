@@ -16,40 +16,35 @@ intro:
 
 feature_row:
   - image_path: /assets/images/empty_icon.png
-    alt: "AI Product Experience"
-    title: AI Product Experience <br> 2017-2020
-    excerpt: "Selected works ranging from conversational AI/ NLP solutions, model training operations to big data analysis projects."
-    url: "/ai"
+    alt: "Data Science Studies"
+    title: "Data Science Studies"
+    excerpt: "Master's programme and research"
+    url: "/data-science-studies"
 
   - image_path: /assets/images/empty_icon.png
-    alt: "The White Box "
-    title: The White Box <br> 2021- now
-    excerpt: "Self-conducted research project aimed to demystify AI and data science- No more black box."
-    url: "/the-white-box"
+    alt: "Applied AI"
+    title: "Applied AI"
+    excerpt: "Selected works of conversational AI/ NLP solutions, model training operations to big data analysis projects."
+    url: "/applied-ai"
 
   - image_path: /assets/images/empty_icon.png
-    alt: "Project Macross"
-    title: Project Macross <br> 2021- now
-    excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
-    url: "/showcase-macross"
-
-  - image_path: /assets/images/empty_icon.png
-    alt: "Project Macross"
-    title: Project Macross <br> 2021- now
-    excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
-    url: "/showcase-macross"
-
-  - image_path: /assets/images/empty_icon.png
-    alt: "Agile and PM Skills"
-    title: Agile and PM Skills
+    alt: "Product Management"
+    title: Product Management
     excerpt: "Link to a page about the Agile certification, explain what it means; list out the product management skills I process, and project examples; list out the PM tools/ tools that I used"
-    url: "/pm-gen"
+    url: "/pm-general"
+
+feature_row_in_progress:
+  - image_path: 
+    alt: "Project Macross (In Progress)"
+    title: "Project Macross <br> (In Progress)"
+    excerpt: "Analyze your music taste with deep learning and NLP."
+    url: "/showcase-macross"
 
   - image_path: /assets/images/empty_icon.png
-    alt: "My Professional Journey"
-    title: "My Professional Journey"
-    excerpt: "Startups and Big Tech."
-    url: "/gen"
+    alt: "Project Macross"
+    title: Project Macross <br> 2021- now
+    excerpt: "An app that analyzes your music taste with deep learning and NLP technologies."
+    url: "/showcase-macross"
 
 ---
 <h1>{% include feature_row id="intro" type="center" %}</h1>
@@ -59,7 +54,6 @@ feature_row:
 <h1 class="archive__item-title">Portfolio</h1><br>
 
 {% include feature_row %}
-
 
 <h1 class="archive__item-title">{{ site.data.ui-text[site.locale].recent_posts | default: "Insights" }}</h1>
 

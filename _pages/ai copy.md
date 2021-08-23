@@ -1,6 +1,6 @@
 ---
-permalink: /applied-ai
-title: "Applied AI"
+permalink: /data-science-studies
+title: "Data Science Studies"
 ---
 
 
