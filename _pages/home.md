@@ -15,22 +15,22 @@ intro:
   - excerpt: "A learner and problem solver, obsessed with solving real-world problems.<br> <br>[About Me](/bio){: .btn .btn--primary}"
 
 feature_row:
-  - image_path: /assets/images/empty_icon.png
-    alt: "Data Science Studies"
-    title: "Data Science Studies"
-    excerpt: "Master's programme and research"
+  - image_path: /assets/images/research-data-science-icon.png
+    alt: "AI/ Data Science Reseprearch"
+    title: "AI/ Data Science Research"
+    excerpt: "Self-conducted studies and research in data science"
     url: "/data-science-studies"
 
-  - image_path: /assets/images/empty_icon.png
+  - image_path: /assets/images/applied-ai-icon.png
     alt: "Applied AI"
     title: "Applied AI"
-    excerpt: "Selected works of conversational AI/ NLP solutions, model training operations to big data analysis projects."
+    excerpt: "Selected works of applied AI solutions"
     url: "/applied-ai"
 
-  - image_path: /assets/images/empty_icon.png
+  - image_path: /assets/images/pm-general-icon.png
     alt: "Product Management"
     title: Product Management
-    excerpt: "Link to a page about the Agile certification, explain what it means; list out the product management skills I process, and project examples; list out the PM tools/ tools that I used"
+    excerpt: "Products delivered in the past, PM artifacts and activities highlights"
     url: "/pm-general"
 
 feature_row_in_progress:
