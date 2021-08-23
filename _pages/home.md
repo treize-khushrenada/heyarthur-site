@@ -21,13 +21,13 @@ feature_row:
     excerpt: "Self-conducted studies and research in data science"
     url: "/data-science-studies"
 
-  - image_path: /assets/images/applied-ai-icon.png
+  - image_path: /assets/images/applied-ai-icon-4.png
     alt: "Applied AI"
     title: "Applied AI"
     excerpt: "Selected works of applied AI solutions"
     url: "/applied-ai"
 
-  - image_path: /assets/images/pm-general-icon.png
+  - image_path: /assets/images/pm-general-icon-2.png
     alt: "Product Management"
     title: Product Management
     excerpt: "Products delivered in the past, PM artifacts and activities highlights"
