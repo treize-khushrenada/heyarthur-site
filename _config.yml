@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Arthur C."
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Update Later"
+  bio    : "Applying AI for good"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
