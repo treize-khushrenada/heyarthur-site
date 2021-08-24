@@ -17,3 +17,4 @@ Self-conducted studies/ research scope:
 
 With solid data manipulation and machine learning techniques developed the applied data science master’s programme at the University of Michigan, I am able to understand to data scientists and researcher’s work, and to speak in their language, in order to drive success through pragmatic, effective product delivery, and manage customer expectations professionally.
 
+[Reading List- consolidation in progress](https://raindrop.io/arthurckw/whitebox-19725136)
