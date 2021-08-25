@@ -18,4 +18,5 @@ Self-conducted studies/ research scope:
 - Product analytics combined with advanced data science skills 
 
 [Personal Statement in Data Science](https://docs.google.com/document/d/1RFOikLoy9FHzH5Oez7bbI7DqoPAjQU2XVwh6Y7uh7kM/edit?usp=sharing)\
-[Reading List- consolidation in progress](https://raindrop.io/arthurckw/whitebox-19725136)
+
+<iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/arthurckw/the-whitebox-reading-list-19725136/embed/theme=auto"></iframe>
