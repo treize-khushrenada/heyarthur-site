@@ -8,11 +8,11 @@ With solid data manipulation and machine learning techniques developed the appli
 
 [Personal Statement in Data Science](https://docs.google.com/document/d/1RFOikLoy9FHzH5Oez7bbI7DqoPAjQU2XVwh6Y7uh7kM/edit?usp=sharing)\
 
-Current Projects: 
+<h3>Current Projects:</h3>
 1. Deep Learning Research Team at University of Michigan School of Information - [1Cademy](https://1cademy.com/)
 2. Aug 2021: [Sentiment Analysis for Conversations Over Time](https://github.com/treize-khushrenada/Conversation-Sentiment-Analysis-with-Time-Series-Data/blob/main/code/ironhack_DA_slack_sentiment_mdoels.ipynb)
 
-Self-conducted studies/ research scope:
+<h3>elf-conducted studies/ research scope</h3>
 - Applications in pre-trained language models for conversation systems
 - Machine learning architectures and pipelines development
 - Data and algorithm transparency
