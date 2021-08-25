@@ -18,4 +18,5 @@ Self-conducted studies/ research scope:
 - Product analytics combined with advanced data science skills 
 
 [Personal Statement in Data Science](https://docs.google.com/document/d/1RFOikLoy9FHzH5Oez7bbI7DqoPAjQU2XVwh6Y7uh7kM/edit?usp=sharing)
+
 [Reading List- consolidation in progress](https://raindrop.io/arthurckw/whitebox-19725136)
