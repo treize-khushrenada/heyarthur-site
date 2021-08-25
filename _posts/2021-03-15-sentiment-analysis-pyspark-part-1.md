@@ -123,7 +123,22 @@ res2.show()
 ```
 
 ```
-+--------------------+--------------------+------+|review_id|text|useful|+--------------------+--------------------+------+|4ZN5ZWVoGd8er9giA...|Dinner for 1.- ...|  1241||A8mLBytNM2zmjHgSp...|In retrospect, I ...|  1122||ZmEtySx0W_RSv07aY...|This restaurant i...|   970||EYbuFrEnVkVdavuRm...|This is the secon...|   846||O1YX1g7Wbf0rmcoud...|I actually suspec...|   808||aTLCBP_6lrCs2Qo3k...|"scary that peopl...|   781||EluaWiwRr0VhTwJe9...|I really wanted t...|   694||oo7W2IgyMMiraml-s...|A few years ago a...|   668||QovoEUcs34yvCCm5u...|I'd put zero star...|   650||69suGHxR3PVxicAgm...|We were very disa...|   578|+--------------------+--------------------+------+
++--------------------+--------------------+------+
+|           review_id|                text|useful|
++--------------------+--------------------+------+
+|4ZN5ZWVoGd8er9giA...|Dinner for 1.
+
+- ...|  1241|
+|A8mLBytNM2zmjHgSp...|In retrospect, I ...|  1122|
+|ZmEtySx0W_RSv07aY...|This restaurant i...|   970|
+|EYbuFrEnVkVdavuRm...|This is the secon...|   846|
+|O1YX1g7Wbf0rmcoud...|I actually suspec...|   808|
+|aTLCBP_6lrCs2Qo3k...|"scary that peopl...|   781|
+|EluaWiwRr0VhTwJe9...|I really wanted t...|   694|
+|oo7W2IgyMMiraml-s...|A few years ago a...|   668|
+|QovoEUcs34yvCCm5u...|I'd put zero star...|   650|
+|69suGHxR3PVxicAgm...|We were very disa...|   578|
++--------------------+--------------------+------+
 ```
 
 More practical functionalities to be shared in the next article of this series.
