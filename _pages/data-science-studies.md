@@ -19,5 +19,5 @@ Self-conducted studies/ research scope:
 - Domain problem/ data model fitting strategies
 - Product analytics combined with advanced data science skills 
 
-<h2>Reading List (Continuously Updated)</h2>
+<h3>Reading List (Continuously Updated)</h3>
 <iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/arthurckw/the-whitebox-reading-list-19725136/embed/theme=auto"></iframe>
