@@ -8,7 +8,7 @@ With solid data manipulation and machine learning techniques developed the appli
 
 Current Projects: 
 1. Deep Learning Research Team at University of Michigan School of Information - [1Cademy](https://1cademy.com/)
-2. Aug 2021: [Time Series Conversation Analysis](https://github.com/treize-khushrenada/Conversation-Sentiment-Analysis-with-Time-Series-Data/blob/main/code/ironhack_DA_slack_sentiment_mdoels.ipynb)
+2. Aug 2021: [Sentiment Analysis for Conversations Over Time](https://github.com/treize-khushrenada/Conversation-Sentiment-Analysis-with-Time-Series-Data/blob/main/code/ironhack_DA_slack_sentiment_mdoels.ipynb)
 
 Self-conducted studies/ research scope:
 - Applications in pre-trained language models for conversation systems
