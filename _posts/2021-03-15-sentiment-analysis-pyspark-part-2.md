@@ -1,7 +1,7 @@
 ---
-title: Spark for Sentiment Analysis on Review Platforms- Dealing with Big Data- Part 1
+title: Spark for Sentiment Analysis on Review Platforms- Dealing with Big Data- Part 2
 excerpt_separator: "<!--more-->"
-date: 2021-03-15T15:34:30-04:00
+date: 2021-03-28T15:34:30-04:00
 categories:
   - Blog
 tags:
