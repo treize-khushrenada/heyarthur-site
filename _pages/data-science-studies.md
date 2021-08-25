@@ -6,6 +6,8 @@ I have started research in applied AI and data science technologies, by taking a
 
 With solid data manipulation and machine learning techniques developed the applied data science master’s programme at the University of Michigan, I am able to understand to data scientists and researcher’s work, and to speak in their language, in order to drive success through pragmatic, effective product delivery, and manage customer expectations professionally.
 
+[Personal Statement in Data Science](https://docs.google.com/document/d/1RFOikLoy9FHzH5Oez7bbI7DqoPAjQU2XVwh6Y7uh7kM/edit?usp=sharing)\
+
 Current Projects: 
 1. Deep Learning Research Team at University of Michigan School of Information - [1Cademy](https://1cademy.com/)
 2. Aug 2021: [Sentiment Analysis for Conversations Over Time](https://github.com/treize-khushrenada/Conversation-Sentiment-Analysis-with-Time-Series-Data/blob/main/code/ironhack_DA_slack_sentiment_mdoels.ipynb)
@@ -17,6 +19,5 @@ Self-conducted studies/ research scope:
 - Domain problem/ data model fitting strategies
 - Product analytics combined with advanced data science skills 
 
-[Personal Statement in Data Science](https://docs.google.com/document/d/1RFOikLoy9FHzH5Oez7bbI7DqoPAjQU2XVwh6Y7uh7kM/edit?usp=sharing)\
-
+<h2>Reading List (Continuously Updated)</h2>
 <iframe style="border: 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/arthurckw/the-whitebox-reading-list-19725136/embed/theme=auto"></iframe>
