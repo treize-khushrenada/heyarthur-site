@@ -6,7 +6,8 @@ I have started research in applied AI and data science technologies, by taking a
 
 With solid data manipulation and machine learning techniques developed the applied data science master’s programme at the University of Michigan, I am able to understand to data scientists and researcher’s work, and to speak in their language, in order to drive success through pragmatic, effective product delivery, and manage customer expectations professionally.
 
-[Personal Statement in Data Science](https://docs.google.com/document/d/1RFOikLoy9FHzH5Oez7bbI7DqoPAjQU2XVwh6Y7uh7kM/edit?usp=sharing)\
+[Personal Statement in Data Science](https://docs.google.com/document/d/1RFOikLoy9FHzH5Oez7bbI7DqoPAjQU2XVwh6Y7uh7kM/edit?usp=sharing)
+
 
 <h3>Current Projects:</h3>
 1. Deep Learning Research Team at University of Michigan School of Information - [1Cademy](https://1cademy.com/)
