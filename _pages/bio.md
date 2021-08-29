@@ -3,6 +3,10 @@ permalink: /bio/
 title: "Hey, it's Arthur."
 ---
 
+<a href="https://www.linkedin.com/in/content-ai-data-nlp-agile-arthur-cho/">LinkedIn Profile</a>
+<a href="https://github.com/treize-khushrenada">Github</a>
+<a href="https://twitter.com/arthurckw">Twitter</a>
+
 I am an AI-enthusiast and product manager, certified Agile personnel and Apple alumn, with more than 10 years of experience in technology field.
 
 I have led multiple teams across industries to innovate, grow and achieve business goals with big data/ AI technologies. More than 10 products were delivered, ranging from consumer apps to enterprise systems, impacting hundred of thousands of users and business stakeholders.
