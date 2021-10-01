@@ -1,5 +1,5 @@
 ---
-title: "Understanding Network/ Graph Analysis"
+title: "Dealing with Network Data- Understanding Network/ Graph Analysis"
 excerpt_separator: "<!--more-->"
 date: 2021-09-15T15:34:30-04:00
 categories:
