@@ -7,7 +7,7 @@ categories:
 tags:
   - 
 header:
-  image: /assets/images/carambola-1.png
+  image: /assets/images/spider-man-analyzing-the-web.png
 ---
 
 ### What to expect:
