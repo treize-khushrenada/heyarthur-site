@@ -16,9 +16,9 @@ intro:
 
 feature_row:
   - image_path: /assets/images/research-data-science-icon.png
-    alt: "AI/ Data Science Reseprearch"
-    title: "AI/ Data Science Research"
-    excerpt: "Self-conducted studies and research in data science"
+    alt: "Data Science / NLP Research"
+    title: "Data Science / NLP Research"
+    excerpt: "Rambling inside the black boxes of AI- Independent studies and research in data science, with a focus in text data domain"
     url: "/data-science-studies"
 
   - image_path: /assets/images/applied-ai-icon-5.png
