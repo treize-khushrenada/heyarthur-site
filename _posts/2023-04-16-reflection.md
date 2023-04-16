@@ -1,4 +1,3 @@
-
 ---
 title: ""
 excerpt_separator: "<!--more-->"
