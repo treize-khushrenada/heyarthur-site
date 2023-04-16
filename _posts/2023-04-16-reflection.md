@@ -3,7 +3,7 @@ title: ""
 excerpt_separator: "<!--more-->"
 date: 2023-04-16T15:34:30-04:00
 categories:
-  - Draft
+  - Blog
 tags:
   - 
 header:
