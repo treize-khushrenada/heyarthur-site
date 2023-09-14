@@ -48,7 +48,7 @@ feature_row_in_progress:
 
 ---
 <h1>{% include feature_row id="intro" type="center" %}</h1>
-**Updated Sep 2021:** Deep Learning research at University of Michigan + Independent projects. Open for new challenges and collaborations!
+**Updated Sep 2023:** Finished working on a book localization project about deploying ML systems. Open for new challenges and collaborations!
 {: .notice}
 
 <h1 class="archive__item-title">Portfolio</h1><br>
